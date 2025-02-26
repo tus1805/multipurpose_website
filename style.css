@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Sora");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	width: 1240px;
+	height: 60px;
+	margin: 30px auto;
+	justify-content: space-between;
+}
+.logo {
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	/* flex: none;
+	flex-grow: 0; */
+	justify-content: space-between;
+	width: 665px;
+	height: 24px;
+	font-family: "Poppins";
+}
+
+.nav .nav-item {
+	display: flex;
+	padding: 0px;
+	gap: 6px;
+	/* Inside auto layout */
+}
+.header-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 214px;
+	height: 60px;
+	background: #1663f9;
+	border-radius: 30px;
+	font-family: "Poppins";
+	color: #ffffff;
+}
+.main-text {
+	margin: 44px auto;
+	width: 780px;
+	height: 228px;
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 76px;
+	text-align: center;
+	color: #1f2326;
+	/* Build Your Dream Website with Our Skilled Development Team */
+}
+.gradient-text {
+	background: linear-gradient(90.21deg, #f961d8 20.98%, #1663f9 59.51%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.main-subtext {
+	margin: 30px auto;
+	width: 715px;
+	height: 52px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #1f2326;
+}
+.btn-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: 45px auto;
+	padding: 0px;
+	gap: 24px;
+	width: 405px;
+	height: 60px;
+	left: 518px;
+	top: 489px;
+	font-family: "Poppins";
+}
+.btn-container .start-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 226px;
+	height: 60px;
+	gap: 10px;
+	color: #ffffff;
+	background: #1663f9;
+	border-radius: 30px;
+	order: 0;
+}
+.btn-container .pricing-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 155px;
+	height: 60px;
+	border: 1px solid #1f2326;
+	border-radius: 60px;
+	order: 1;
+}
+.bg-color-1 {
+	position: absolute;
+	width: 1362.54px;
+	height: 766.44px;
+	left: -753px;
+	top: 281px;
+	background: #51b4fa;
+	filter: blur(148.009px);
+	border-radius: 532.247px;
+	z-index: -3;
+}
+.bg-color-2 {
+	position: absolute;
+	width: 751.02px;
+	height: 422.45px;
+	right: 659.98px;
+	top: 529px;
+	background: #854aeb;
+	filter: blur(148.009px);
+	border-radius: 293.368px;
+	z-index: -2;
+}
+.bg-color-3 {
+	position: absolute;
+	width: 625.19px;
+	height: 351.66px;
+	left: 592px;
+	top: 564px;
+	background: #f8d997;
+	filter: blur(148.009px);
+	border-radius: 244.214px;
+	z-index: -1;
+}
+.bg-color-4 {
+	position: absolute;
+	width: 671px;
+	height: 377.44px;
+	right: -113px;
+	top: 375px;
+	background: #f8a6f0;
+	filter: blur(148.009px);
+	border-radius: 262.109px;
+	z-index: -4;
+}
+.summary {
+	display: flex;
+	justify-content: center;
+	width: 1170px;
+	height: 773px;
+	margin: 100px auto;
+	background: #ffffff;
+	border-radius: 30px;
+}
+
+.services {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position: absolute;
+	margin: 70px auto;
+	gap: 30px;
+	width: 1074px;
+	height: 225px;
+}
+.partners {
+	margin: 415px auto;
+	width: 1051px;
+	height: 191px;
+	border: 1px solid red;
+}
+.card {
+	width: 246px;
+	height: 225px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	border: 1px #f2f3f8 solid;
+	border-radius: 12px;
+}
+.card-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 88px;
+	height: 88px;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 60px;
+}
+.bg-linear-pink {
+	background: linear-gradient(157.75deg, #d555c7 14.46%, #f396ea 79.18%);
+}
+.bg-linear-orange {
+	background: linear-gradient(160.02deg, #f49235 11.67%, #ffb46d 82.2%);
+}
+.bg-linear-blue {
+	background: linear-gradient(339.28deg, #6bcefd 11.58%, #32a9df 88.12%);
+}
+.bg-linear-red {
+	background: linear-gradient(157.68deg, #ff7999 17.3%, #ffbdcc 82.95%);
+}
+.card-text {
+	position: relative;
+	height: 47px;
+	left: 30px;
+	top: 30px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #1f2326;
+}
