@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+
+.sora {
+	font-family: "Sora";
+	font-style: normal;
+}
+.poppins {
+	font-family: "Poppins";
+	font-style: normal;
+}
+.weight-default {
+	font-weight: 400;
+}
+.medium {
+	font-weight: 500;
+}
+.semi-bold {
+	font-weight: 600;
+}
+.bold {
+	font-weight: 700;
+}
+.extra-bold {
+	font-weight: 800;
+}
+
+/*-----Heading-----*/
+.heading-1 {
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 76px;
+}
+.heading-2 {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 60px;
+}
+.heading-3 {
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 42px;
+}
+.heading-4 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+}
+.heading-5 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+/*-----Paragraph-----*/
+.paragraph-1 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+.paragraph-2 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+.paragraph-3 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/*-----Sub heading-----*/
+.sub-heading-1 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+}
+.sub-heading-2 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+.sub-heading-3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/*-----Body-----*/
+.body-1 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+.body-2 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.body-3 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+.body-4 {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}

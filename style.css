@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Sora");
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-
 header {
 	display: flex;
 	flex-direction: row;
@@ -21,20 +18,15 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	padding: 0px;
-	/* flex: none;
-	flex-grow: 0; */
 	justify-content: space-between;
 	width: 665px;
 	height: 24px;
-	font-family: "Poppins";
 }
 
 .nav .nav-item {
 	display: flex;
 	padding: 0px;
 	gap: 6px;
-	/* Inside auto layout */
 }
 .header-btn {
 	display: flex;
@@ -51,14 +43,8 @@ header {
 	margin: 44px auto;
 	width: 780px;
 	height: 228px;
-	font-family: "Sora";
-	font-style: normal;
-	font-weight: 800;
-	font-size: 60px;
-	line-height: 76px;
 	text-align: center;
 	color: #1f2326;
-	/* Build Your Dream Website with Our Skilled Development Team */
 }
 .gradient-text {
 	background: linear-gradient(90.21deg, #f961d8 20.98%, #1663f9 59.51%);
@@ -70,10 +56,6 @@ header {
 	margin: 30px auto;
 	width: 715px;
 	height: 52px;
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
 	text-align: center;
 	color: #1f2326;
 }
@@ -88,7 +70,6 @@ header {
 	height: 60px;
 	left: 518px;
 	top: 489px;
-	font-family: "Poppins";
 }
 .btn-container .start-btn {
 	display: flex;
@@ -176,18 +157,9 @@ header {
 	width: 1074px;
 	height: 225px;
 }
-.partners {
-	margin: 415px auto;
-	width: 1051px;
-	height: 191px;
-	border: 1px solid red;
-}
 .card {
 	width: 246px;
 	height: 225px;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
 	border: 1px #f2f3f8 solid;
 	border-radius: 12px;
 }
@@ -224,4 +196,131 @@ header {
 	font-size: 18px;
 	line-height: 28px;
 	color: #1f2326;
+}
+.partners {
+	margin: 415px auto;
+	width: 1051px;
+	height: 191px;
+}
+.partners-text {
+	margin: auto;
+	width: 810px;
+	height: 120px;
+	text-align: center;
+	color: #1f2326;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.blue {
+	color: #1663f9;
+	margin: 0;
+}
+.partner-logos {
+	width: 1051px;
+	height: 31px;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.portfolio-container {
+	display: flex;
+	margin: -47px auto;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 100px;
+	width: 1170px;
+	height: 2800px;
+}
+.portfolio-header {
+	position: absolute;
+	width: 434px;
+	height: 60px;
+	line-height: 60px;
+	color: #000000;
+}
+.portfolio-group {
+	margin: 160px auto;
+	width: 1170px;
+	height: 2640px;
+}
+.portfolio-left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 100px;
+	padding: 0px;
+	gap: 104px;
+	width: 1170px;
+	height: 585px;
+}
+.portfolio-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 100px;
+	padding: 0px;
+	gap: 71px;
+	width: 1170px;
+	height: 585px;
+	text-align: right;
+}
+.float-right {
+	float: right;
+}
+.portfolio-app {
+	width: auto;
+	height: auto;
+	color: #81879d;
+}
+.portfolio-name {
+	margin-top: 16px;
+	width: auto;
+	height: auto;
+	color: #1f2326;
+}
+.portfolio-description {
+	margin-top: 30px;
+	width: auto;
+	height: auto;
+	color: #171717;
+}
+.portfolio-view {
+	margin-top: 40px;
+	width: 285px;
+	height: 24px;
+	/* font-family: "Gramatika-Medium"; */
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 8px;
+	margin-right: -8px;
+
+	color: #171717;
+}
+.portfolio-rectangle-left {
+	margin-top: 14px;
+	width: 146px;
+	height: 2px;
+	background: linear-gradient(
+		90.05deg,
+		#b112f4 -9.94%,
+		rgba(177, 18, 244, 0) 123.03%
+	);
+}
+.portfolio-rectangle-right {
+	margin-top: 14px;
+	width: 146px;
+	height: 2px;
+	background: linear-gradient(
+		90.05deg,
+		#b112f4 -9.94%,
+		rgba(177, 18, 244, 0) 123.03%
+	);
+	transform: rotate(180deg);
+}
+.portfolio-thumb {
+	float: right;
 }
