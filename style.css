@@ -324,3 +324,9 @@ header {
 .portfolio-thumb {
 	float: right;
 }
+.expertise {
+	margin: 120px auto;
+	width: 1170px;
+	height: 930px;
+	border: 1px solid black;
+}
