@@ -214,7 +214,6 @@ header {
 }
 .blue {
 	color: #1663f9;
-	margin: 0;
 }
 .partner-logos {
 	width: 1051px;
@@ -324,9 +323,71 @@ header {
 .portfolio-thumb {
 	float: right;
 }
-.expertise {
-	margin: 120px auto;
+.expertise-container {
+	margin: 170px auto;
 	width: 1170px;
 	height: 930px;
-	border: 1px solid black;
+	background: #f1f5f9;
+	border-radius: 30px;
+}
+.expertise-heading {
+	width: 678px;
+	height: 60px;
+	margin: auto;
+	padding-top: 70px;
+	color: #000000;
+}
+.expertise-intro {
+	margin: 30px auto 8px;
+	width: 709px;
+	height: 78px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #1f2326;
+}
+.expertise-grid-container {
+	display: grid;
+	row-gap: 24px;
+	column-gap: 30px;
+	grid-template-columns: auto auto;
+	padding: 40px;
+}
+.expertise-grid {
+	flex-direction: column;
+	width: 530px;
+	height: 286px;
+	background: #ffffff;
+	border-radius: 10px;
+	align-items: center;
+	text-align: left;
+}
+.line {
+	display: flex;
+	margin: 20px auto 0;
+	width: 470px;
+	height: 1px;
+	background: #f0f0f0;
+}
+.expertise-title {
+	margin: 24px 0 0 30px;
+	color: #000000;
+}
+.expertise-description {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin: 0 0 16px 0;
+}
+.expertise-list {
+	list-style-type: none;
+	padding: 24px 30px;
+	margin: 0;
+}
+.plan-container {
+	width: 100%;
+	height: auto;
+	background: #f2f3f8;
 }
