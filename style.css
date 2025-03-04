@@ -46,12 +46,6 @@ header {
 	text-align: center;
 	color: #1f2326;
 }
-.gradient-text {
-	background: linear-gradient(90.21deg, #f961d8 20.98%, #1663f9 59.51%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-}
 .main-subtext {
 	margin: 30px auto;
 	width: 715px;
@@ -211,9 +205,6 @@ header {
 	flex: none;
 	order: 0;
 	flex-grow: 0;
-}
-.blue {
-	color: #1663f9;
 }
 .partner-logos {
 	width: 1051px;
