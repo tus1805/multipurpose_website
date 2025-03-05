@@ -1,3 +1,7 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
 header {
 	display: flex;
 	flex-direction: row;
@@ -62,8 +66,6 @@ header {
 	gap: 24px;
 	width: 405px;
 	height: 60px;
-	left: 518px;
-	top: 489px;
 }
 .btn-container .start-btn {
 	display: flex;
@@ -372,6 +374,9 @@ header {
 	color: #000000;
 	margin: 0 0 16px 0;
 }
+.expertise-description img {
+	padding-right: 12px;
+}
 .expertise-list {
 	list-style-type: none;
 	padding: 24px 30px;
@@ -380,5 +385,276 @@ header {
 .plan-container {
 	width: 100%;
 	height: auto;
+	padding-bottom: 70px;
 	background: #f2f3f8;
+}
+.plan-heading {
+	padding-top: 70px;
+	margin: auto;
+	width: 679px;
+	height: 120px;
+	align-items: center;
+	text-align: center;
+	color: #1f2326;
+}
+.plan-options {
+	width: 232px;
+	height: 40px;
+	margin: auto;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: 70px auto 40px;
+	gap: 12px;
+}
+.option-btn-monthly {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 110px;
+	height: 40px;
+	background: #1663f9;
+	border-radius: 52px;
+	color: #ffffff;
+}
+.option-btn-yearly {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 110px;
+	height: 40px;
+	background: #f8f8f8;
+	border-radius: 52px;
+	color: #81879d;
+}
+.subscription-options {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: auto;
+	width: 1170px;
+	height: 464px;
+	gap: 30px;
+}
+.subscription {
+	width: 730px;
+	height: 464px;
+}
+.subscription-small {
+	width: 410px;
+	height: 464px;
+}
+.subscription-summary {
+	width: auto;
+	height: 170px;
+	background: #ffffff;
+	border-radius: 30px 30px 0 0;
+}
+.subscription-summary-header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.subscription-level {
+	margin: 25px 0 0 42px;
+	color: #1f2326;
+}
+.subscription-tags {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 20px auto;
+	width: 141px;
+	height: 40px;
+	background-color: rgba(22, 99, 249, 0.1);
+	border-radius: 30px;
+	color: #1663f9;
+}
+.subscription-price {
+	margin: 12px 0 0 42px;
+}
+.subscription-price span {
+	color: #81879d;
+}
+.subscription-perks {
+	width: auto;
+	height: 294px;
+	background: #eaedf9;
+	border-radius: 0 0 30px 30px;
+}
+.subscription-perk-grid {
+	display: grid;
+	row-gap: 20px;
+	column-gap: 30px;
+	grid-template-columns: auto auto;
+	padding: 42px;
+}
+.subscription-perk-small-grid {
+	display: grid;
+	row-gap: 20px;
+	column-gap: 30px;
+	grid-template-columns: auto;
+	padding: 42px;
+}
+.perk-detail {
+	color: #81879d;
+}
+.perk-detail img {
+	padding-right: 12px;
+	padding-top: 3px;
+	margin: auto;
+}
+.subscription-buy-btn {
+	margin-left: 42px;
+	width: 140px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background: linear-gradient(
+		90deg,
+		#5f45d9 -11.43%,
+		#f961d8 47.91%,
+		#fe9e66 92.14%
+	);
+	border-radius: 30px;
+}
+
+/* gradient color border: https://stackoverflow.com/questions/51496204/border-gradient-with-border-radius */
+.subscription-buy-btn-small {
+	margin-left: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 140px;
+	height: 44px;
+	color: #313149;
+	position: relative;
+	z-index: 0;
+}
+.subscription-buy-btn-small::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	inset: 0;
+	padding: 1px;
+	border-radius: 30px;
+	background: linear-gradient(
+		90deg,
+		#5f45d9 -11.43%,
+		#f961d8 47.91%,
+		#fe9e66 92.14%
+	);
+	mask: linear-gradient(#000 0 0) exclude,
+		linear-gradient(#000 0 0) content-box;
+}
+.feedback-container {
+	margin: 95px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0px;
+	gap: 40px;
+	width: 1170px;
+	height: 383px;
+}
+.feedback-group {
+	width: 1170px;
+	height: 331px;
+	background: linear-gradient(90.47deg, #3f56ee 10.5%, #5094fa 102.82%);
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.feedback-group .vector {
+	margin: 44px 0 0 60px;
+}
+.feedback-content {
+	width: 656px;
+	height: 202px;
+	color: #ffffff;
+	opacity: 0.7;
+	margin: 65px 52px 64px 40px;
+}
+
+.feedback-scrollbar {
+	width: 120px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.slash {
+	width: 1px;
+	height: 237px;
+	margin-top: 47px;
+	background: #d9d9d9;
+}
+.feedback-user {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 80px 0 0 52px;
+}
+.user-avatar {
+	width: 85px;
+	height: 85px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	background: #b7ceff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.user-name {
+	color: #ffffff;
+	margin-top: 24px;
+}
+.user-job {
+	color: #ffffff;
+	margin-top: 10px;
+}
+.team-container {
+	margin: 120px auto;
+	width: 1075px;
+	height: auto;
+	left: 183px;
+	top: 6802px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.team-heading {
+	margin: auto;
+}
+.team-intro {
+	margin: 30px auto;
+	width: 481px;
+	height: 45px;
+	text-align: center;
+}
+.team-group-container {
+	margin: 70px auto;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(2, auto);
+	grid-gap: 50px 30px;
+}
+.hover {
+	z-index: 0;
+	color: #1663f9;
+	opacity: 0.8;
+	border-radius: 158px;
 }
