@@ -652,9 +652,80 @@ header {
 	grid-template-rows: repeat(2, auto);
 	grid-gap: 50px 30px;
 }
-.hover {
+.team-card {
+	position: relative;
+}
+.team-card .user {
+	position: absolute;
+}
+.team-card:hover {
 	z-index: 0;
 	color: #1663f9;
-	opacity: 0.8;
+	/* opacity: 0.8; */
 	border-radius: 158px;
+}
+.team-card-info {
+	display: none;
+}
+.team-card:hover .team-card-info {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 143px;
+}
+.team-card-job {
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+.blog-container {
+	margin: auto auto 112px auto;
+	width: 1140px;
+	height: 506px;
+}
+.blog-header {
+	width: 468px;
+	height: 60px;
+	margin: auto;
+}
+.blog-card-container {
+	margin-top: 63px;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+.blog-info-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+	margin-top: 30px;
+}
+.blog-type {
+	width: 100px;
+	height: 30px;
+	background: #ffdb8f;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+}
+.blog-title {
+	margin-top: 16px;
+}
+.application-container {
+	margin: auto;
+	width: 1170px;
+	height: 483px;
+	background: linear-gradient(243.41deg, #9a40e4 7.82%, #5c70f4 74.31%);
+	border-radius: 20px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
