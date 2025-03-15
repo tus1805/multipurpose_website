@@ -71,6 +71,11 @@ header {
 	left: 518px;
 	top: 489px;
 }
+.bg-container {
+	position: relative;
+	width: 1440px;
+	margin: auto;
+}
 .bg-color-1 {
 	position: absolute;
 	width: 1362.54px;

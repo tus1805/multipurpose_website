@@ -388,6 +388,44 @@ header {
 	justify-content: center;
 	border-radius: 30px;
 }
+/* Result */
+.result-container {
+	width: 1170px;
+	height: 595px;
+	margin: 120px auto;
+	align-items: center;
+}
+.result-title {
+	margin: auto;
+	width: 757px;
+	height: 120px;
+	text-align: center;
+}
+.result-subtitle {
+	margin: 24px auto 0 auto;
+	font-family: DM Sans;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-align: center;
+	vertical-align: middle;
+	width: 555px;
+	height: 80px;
+}
+.stats-container {
+	margin-top: 44px;
+	display: flex;
+	flex-direction: row;
+}
+.result-thumb {
+	width: 50%;
+	width: 566px;
+	height: 302px;
+}
+.stat-collab .heading-3 {
+	color: #1663f9;
+}
 /*--Footer--*/
 .footer-container {
 	margin-top: 20px;

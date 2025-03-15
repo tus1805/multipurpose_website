@@ -87,6 +87,11 @@ header {
 	border-radius: 60px;
 	order: 1;
 }
+.bg-container {
+	position: relative;
+	width: 1440px;
+	margin: auto;
+}
 .bg-color-1 {
 	position: absolute;
 	width: 1362.54px;
@@ -548,8 +553,7 @@ header {
 		#f961d8 47.91%,
 		#fe9e66 92.14%
 	);
-	mask: linear-gradient(#000 0 0) exclude,
-		linear-gradient(#000 0 0) content-box;
+	mask: linear-gradient(#000 0 0) exclude, linear-gradient(#000 0 0) content-box;
 }
 .feedback-container {
 	margin: 95px auto;

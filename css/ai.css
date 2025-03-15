@@ -74,6 +74,11 @@ header {
 	order: 0;
 }
 /* Background */
+.bg-container {
+	position: relative;
+	width: 1440px;
+	margin: auto;
+}
 .bg-color-1 {
 	position: absolute;
 	width: 671px;
@@ -322,7 +327,7 @@ header {
 }
 /* Topic help */
 .topic-help-container {
-	margin: 60px auto;
+	margin: 60px auto 0 auto;
 	width: 1170px;
 	height: 646px;
 	background: linear-gradient(243.41deg, #9a40e4 7.82%, #5c70f4 74.31%);
@@ -348,6 +353,172 @@ header {
 	border: none;
 	background-color: #ffffff;
 }
+/* Guide */
+.guide-container {
+	margin: 100px auto 80px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.step-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+	gap: 30px;
+}
+.step-card {
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	height: 618px;
+	background: #fff8fd;
+	border-radius: 16px;
+}
+.step-img-container {
+	padding: 32px 40px;
+}
+.step-img {
+	width: 524px;
+	height: 524px;
+	background: linear-gradient(243.41deg, #9a40e4 7.82%, #5c70f4 74.31%);
+	border-radius: 20px;
+}
+.step-img img {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 28px;
+}
+.guide-title {
+	width: 636px;
+	height: 60px;
+	color: #000000;
+}
+.step-info {
+	width: 530px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 32px 40px;
+	gap: 28px;
+}
+/* Feedback */
+.feedback-container {
+	width: 1170px;
+	height: 982px;
+	background: linear-gradient(90.47deg, #3f56ee 10.5%, #5094fa 102.82%);
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+.feedback-title {
+	margin-top: 70px;
+	color: #ffffff;
+}
+.feedback-grid {
+	margin: 50px;
+	width: 1100px;
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-auto-flow: column;
+	overflow-x: scroll;
+	grid-gap: 30px;
+	padding-left: 70px;
+}
+.feedback-grid::-webkit-scrollbar {
+	display: none;
+}
+.feedback-grid-item {
+	width: 370px;
+	height: 230px;
+	background: #ffffff;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+	gap: 24px;
+}
+.feedback-content {
+	margin: 30px 28px 0 28px;
+	width: 314px;
+	height: 100px;
+	color: #81879d;
+}
+.feedback-user {
+	display: flex;
+	margin-bottom: 30px;
+	margin-left: 28px;
+	gap: 13px;
+}
+.user-avatar {
+	width: 46px;
+	height: 46px;
+	background-color: #d9d9d9;
+	border-radius: 25px;
+	overflow: hidden;
+}
+.user-avatar img {
+	overflow: hidden;
+	margin-top: 5px;
+}
+/* FAQ */
+.faq-container {
+	margin: 120px auto 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 80px;
+	width: 1024px;
+}
+.faqs {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.question {
+	width: 1024px;
+	box-sizing: border-box;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	/* cursor: pointer; */
+}
+.question-main {
+	display: flex;
+	margin: 17px 20px 17px 33px;
+	justify-content: space-between;
+	align-items: center;
+}
+.question-dropdown-icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dropdown-content {
+	display: none;
+	margin: 0 0 24px 33px;
+	color: #81879d;
+	width: 827px;
+	height: 84px;
+}
+.question:hover {
+	border: 1px solid #1663f9;
+}
+.question:hover .dropdown-content {
+	display: block;
+}
+/* .question:focus .dropdown-content {
+	display: block;
+} */
 /*--Footer--*/
 .footer-container {
 	margin-top: 20px;
@@ -358,7 +529,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	margin: 20px auto;
+	margin: 80px auto 48px;
 	justify-content: space-between;
 	width: 1079px;
 	height: 261px;
@@ -421,13 +592,12 @@ header {
 	align-items: center;
 }
 .footer-line {
-	margin-top: 70px;
 	width: auto;
 	height: 1px;
 	background: #f0f0f0;
 }
 .footer-foot {
-	margin-top: 70px;
+	margin-top: 38px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
