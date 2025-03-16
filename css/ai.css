@@ -47,7 +47,6 @@ header {
 	height: auto;
 	text-align: center;
 	color: #1f2326;
-	width: 947;
 }
 .main-subtitle {
 	margin: 30px auto;
@@ -428,6 +427,7 @@ header {
 	overflow-x: scroll;
 	grid-gap: 30px;
 	padding-left: 70px;
+	overscroll-behavior-x: contain;
 }
 .feedback-grid::-webkit-scrollbar {
 	display: none;
